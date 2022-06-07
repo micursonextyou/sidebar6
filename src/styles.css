@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("./assets/css/style.css");
+*{
+     margin: 0;
+     padding: 0;
+}
+body{
+     position: relative;
+     direction: ltr;
+     box-sizing: border-box;
+     height: 100vh;
+}
+*,::after,::before{
+  box-sizing: border-box;
+}
